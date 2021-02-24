@@ -2,10 +2,15 @@ function load() {
     var element = document.getElementById('loader');
     element.style.display = "none";
 }
-function changeATag() {
-    var element = document.getElementById('icon-hanging');
-    if (window.scroll > 300) {
-    element.style.color = "black";
-    }
+$(document).ready(function(){       
+    var scroll_pos = 0;
+    $(document).scroll(function() { 
+        scroll_pos = $(this).scrollTop();
+        if(scroll_pos > 210) {
+            $('.icons-hanging').css('color', '#000 !important');
+        } else {
+            $('.icons-hanging').css('color', '#fff');
+        }
+    });
     
-}
+});
