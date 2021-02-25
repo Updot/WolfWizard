@@ -9,7 +9,7 @@ $(document).ready(function(){
         if(scroll_pos > 210) {
             $('.icons-hanging').css('color', '#000 !important');
         } else {
-            $('.icons-hanging').css('color', '#fff');
+            $('.icons-hanging').css('color', '#fff !important');
         }
     });
     

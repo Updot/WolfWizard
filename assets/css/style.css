@@ -127,6 +127,7 @@
 }
 @media(min-width: 768px) {
 .icons-hanging {
+        background-color: black;
         padding-left: 16px;
         padding-right: 15px;
         padding-top: 12px;
