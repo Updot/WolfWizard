@@ -9419,7 +9419,7 @@ a:hover {
     }
     #mainNav .nav-link.active {
         outline: none;
-        background-color: hsla(0, 0%, 100%, 0.3);
+        /* background-color: hsla(0, 0%, 100%, 0.3); */
     }
     #mainNav .nav-link.active:hover {
         color: #fff;
