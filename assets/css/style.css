@@ -57,9 +57,12 @@
     color: #fff;
 }
 #next-head {
-    margin-top: 30px;
+    background-image: url('../img/Untitled-1.jpg');
     margin-bottom: 0px;
     padding-bottom: 0px;
+}
+#next-head .container {
+    padding-top:35px;
 }
 .tz-gallery {
     padding: 40px;
