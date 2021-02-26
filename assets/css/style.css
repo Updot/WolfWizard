@@ -136,6 +136,20 @@ h2 {
     body {
         padding: 0;
     }
+    h2 {
+        font-size: 1rem !important;
+    }
+    .content-section {
+        padding-top: 20px;
+    }
+    #about-img {
+        width: 100% !important;
+        height: 95% !important;
+    }
+    .icons-hanging {
+        background-color: black;
+        z-index: 999;
+    }
 }
 .masthead {
     color: white !important;
