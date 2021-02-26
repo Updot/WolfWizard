@@ -44,6 +44,7 @@ p {
 }
 #social-icons-body {
     position: fixed;
+    z-index: 555;
 }
 .gallery-container h1 {
     text-align: center;
@@ -133,6 +134,15 @@ h2 {
 }
 
 @media(max-width: 768px) {
+    #mainNav {
+        border-bottom: none;
+    }
+    #mainNav.navbar-shrink {
+        background: #4c1028;
+    }
+    .full-main-header {
+        height: 90vh;
+    }
     body {
         padding: 0;
     }
@@ -149,6 +159,9 @@ h2 {
     .icons-hanging {
         background-color: black;
         z-index: 999;
+    }
+    #about-img img{
+        width: 100% !important;
     }
 }
 .masthead {

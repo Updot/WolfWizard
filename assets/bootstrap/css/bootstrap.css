@@ -9376,7 +9376,7 @@ a:hover {
     margin-bottom: 0;
     text-transform: uppercase;
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
-    background-color: #4d0f28;
+    background-color: transparent;
 }
 #mainNav .navbar-toggler {
     font-size: 14px;
