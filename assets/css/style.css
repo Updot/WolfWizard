@@ -59,13 +59,22 @@ p {
     color: #fff;
 }
 #vision {
-    margin-top: 15px;
-    padding-top: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+h2 {
+    font-size: 1.5rem !important;
+}
+.founder {
+    margin-top: 30px;
+    padding-top: 10px;
 }
 .next-head {
     background-image: url('../img/Untitled-1.jpg');
     margin-bottom: 0px;
     padding-bottom: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #next-head .container {
     padding-top:35px;
