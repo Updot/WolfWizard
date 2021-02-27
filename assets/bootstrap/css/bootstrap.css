@@ -9330,8 +9330,8 @@ a.text-dark:hover {
 body {
     font-family: Lora, Helvetica Neue, Helvetica, Arial, sans-serif;
     position: relative;
-    color: #4c1028;
-    background-color: #fff;
+    color: white;
+    background-color: black;
 }
 body,
 html {
