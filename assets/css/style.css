@@ -67,11 +67,18 @@ h2 {
     font-size: 1.5rem !important;
 }
 .founder {
-    margin-top: 30px;
-    padding-top: 10px;
+    /* margin-top: 30px; */
+    padding-top: 30px;
 }
 .next-head {
-    background-image: url('../img/Untitled-1.jpg');
+    background-image: url('../img/211.png');
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.founder {
+    background-image: url('../img/21.png');
     margin-bottom: 0px;
     padding-bottom: 0px;
     background-size: cover;
@@ -132,7 +139,16 @@ h2 {
 .baguetteBox-button {
     background-color: transparent !important;
 }
-
+img.custom {
+    border: 3px solid white;
+    padding: 6px;
+}
+img.custom:hover,
+img.custom:focus {
+  width: 260px !important;
+  height: 300px !important;
+  border: 3px dotted white !important;
+}
 @media(max-width: 768px) {
     #mainNav {
         border-bottom: none;
