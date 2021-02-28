@@ -60,7 +60,7 @@ p {
     color: #fff;
 }
 #vision {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding-top: 10px;
 }
 h2 {
@@ -71,7 +71,7 @@ h2 {
     padding-top: 30px;
 }
 .next-head {
-    background-image: url('../img/211.png');
+    /* background-image: url('../img/211.png'); */
     margin-bottom: 0px;
     padding-bottom: 0px;
     background-size: cover;
@@ -86,6 +86,11 @@ h2 {
 }
 #next-head .container {
     padding-top:35px;
+}
+#vision {
+    background-image: url('../img/21.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .tz-gallery {
     padding: 40px;
@@ -148,6 +153,8 @@ img.custom:focus {
   width: 260px !important;
   height: 300px !important;
   border: 3px dotted white !important;
+  transition: transform .2s;
+  transform: scale(1.0);
 }
 @media(max-width: 768px) {
     #mainNav {
