@@ -9430,7 +9430,7 @@ a:hover {
     width: 100%;
     height: auto;
     padding: 200px 0;
-    text-align: center;
+    /* text-align: center; */
     color: #4d0f28;
     background-color: #fff;
     background-size: cover;
