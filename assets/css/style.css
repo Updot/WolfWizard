@@ -218,6 +218,12 @@ img.custom:focus {
     background-image: linear-gradient(to top right, #4d0f28,#741418);
     color: white !important;
 }
+.founder h2 {
+    letter-spacing: 5px;
+}
+.founder-info{
+    margin-top: 70px !important;
+}
 /* founder styling end */
 
 
