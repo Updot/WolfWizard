@@ -2395,9 +2395,9 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(61, 193, 145, 0.5);
 }
 .btn-secondary {
-    color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d;
+    color: #4d0f28;
+    background-color: #fff;
+    border-color: #fff;
 }
 .btn-secondary.focus,
 .btn-secondary:focus,
@@ -9364,12 +9364,12 @@ p {
 }
 a {
     transition: all 0.2s ease-in-out;
-    color: #800080;
+    color: #4d0f28;
 }
 a:focus,
 a:hover {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #4d0f28;
 }
 #mainNav {
     font-family: Cabin, Helvetica Neue, Helvetica, Arial, sans-serif;

@@ -213,6 +213,14 @@ img.custom:focus {
 }
 /* about us end */
 
+/* founder styling start */
+.founder {
+    background-image: linear-gradient(to top right, #4d0f28,#741418);
+    color: white !important;
+}
+/* founder styling end */
+
+
 /* desktop view start*/
 @media(min-width: 768px) {
 .icons-hanging {
@@ -246,6 +254,10 @@ img.custom:focus {
 .footer-links {
     padding-left:0px;
     list-style: none;
+}
+.footer-links li {
+    display: inline-block;
+    padding-left: 15px;
 }
 #primary-footer .footer-links li{
     display: inline-block;
