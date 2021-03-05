@@ -2361,9 +2361,9 @@ fieldset:disabled a.btn {
     pointer-events: none;
 }
 .btn-primary {
-    color: #212529;
-    background-color: #42dca3;
-    border-color: #42dca3;
+    color: #fff;
+    background-color: #4d0f28;
+    border-color: #4d0f28;
 }
 .btn-primary.focus,
 .btn-primary:focus,
@@ -2395,9 +2395,9 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(61, 193, 145, 0.5);
 }
 .btn-secondary {
-    color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d;
+    color: #4d0f28;
+    background-color: #fff;
+    border-color: #fff;
 }
 .btn-secondary.focus,
 .btn-secondary:focus,
@@ -9330,8 +9330,8 @@ a.text-dark:hover {
 body {
     font-family: Lora, Helvetica Neue, Helvetica, Arial, sans-serif;
     position: relative;
-    color: white;
-    background-color: black;
+    color: #4d0f28;
+    background-color: white;
 }
 body,
 html {
@@ -9364,12 +9364,12 @@ p {
 }
 a {
     transition: all 0.2s ease-in-out;
-    color: #800080;
+    color: #4d0f28;
 }
 a:focus,
 a:hover {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #4d0f28;
 }
 #mainNav {
     font-family: Cabin, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -9415,7 +9415,7 @@ a:hover {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
-        background: black;
+        background: white;
     }
     #mainNav .nav-link.active {
         outline: none;
@@ -9430,8 +9430,8 @@ a:hover {
     width: 100%;
     height: auto;
     padding: 200px 0;
-    text-align: center;
-    color: #4c1028;
+    /* text-align: center; */
+    color: #4d0f28;
     background-color: #fff;
     background-size: cover;
 }
