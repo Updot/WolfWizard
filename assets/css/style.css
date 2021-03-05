@@ -194,8 +194,24 @@ img.custom:focus {
     line-height: 1.14px;
     letter-spacing: 0px !important;
 }
+#contactus {
+    border-radius: 70px;
+}
 /* header styling end */
 
+
+/* about us start */
+#about {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about h2 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 2rem !important;
+}
+/* about us end */
 
 /* desktop view start*/
 @media(min-width: 768px) {
