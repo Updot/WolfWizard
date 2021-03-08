@@ -2874,16 +2874,16 @@ fieldset:disabled a.btn {
 }
 .btn-link {
     font-weight: 400;
-    color: #42dca3;
+    color: #4d0f28;
     text-decoration: none;
 }
 .btn-link:hover {
-    color: #21b17b;
+    color: #4d0f28;
 }
 .btn-link.focus,
 .btn-link:focus,
 .btn-link:hover {
-    text-decoration: underline;
+    text-decoration:none;
 }
 .btn-link.disabled,
 .btn-link:disabled {

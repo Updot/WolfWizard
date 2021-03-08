@@ -226,7 +226,19 @@ img.custom:focus {
 }
 /* founder styling end */
 
+/* faq section start */
+/* #faq {
+    background-image: url('../img/Artboard\ 1\ copy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* faq section end */
 
+/* nightmode styling */
+.dark-mode {
+    background-color: black !important;
+    color: white !important;
+}
 /* desktop view start*/
 @media(min-width: 768px) {
 .icons-hanging {
