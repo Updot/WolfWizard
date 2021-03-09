@@ -53,10 +53,6 @@ p {
     font-size: 18px;
     color: #fff;
 }
-#vision {
-    /* margin-top: 10px; */
-    padding-top: 10px;
-}
 h2 {
     font-size: 1.5rem !important;
 }
@@ -81,11 +77,10 @@ h2 {
 #next-head .container {
     padding-top:35px;
 }
-#vision {
-    /* background-image: url('../img/21.png'); */
+/* #vision {
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 .tz-gallery {
     padding: 40px;
 }
@@ -227,13 +222,111 @@ img.custom:focus {
 /* founder styling end */
 
 /* faq section start */
-/* #faq {
-    background-image: url('../img/Artboard\ 1\ copy.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .section-heading h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #4d0f28;
+  }
+  
+  #full-faq {
+    padding: 120px 0;
+  }
+  
+  #full-faq .faq-area .card {
+    border: 0;
+    margin: 8px 0;
+    overflow: visible;
+  }
+  
+  #full-faq .faq-area .card .card-header {
+    border: 0;
+    padding: 0;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-bottom: solid 3px #e3e8ec;
+    background-color: #f5f8fa;
+  }
+  
+  #full-faq .faq-area .card .card-header h2 button {
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d0f28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  #full-faq .faq-area .card .card-header h2 button:focus {
+    box-shadow: none;
+  }
+  #full-faq .faq-area .card .card-header h2 button span {
+    color: #96a9b8;
+  }
+  
+  #full-faq .faq-area .card .card-header.active {
+    background-color: #fffef8;
+  }
+  
+  #full-faq .faq-area .card .card-header.active span {
+    color: #4d0f28;
+  }
+  
 /* faq section end */
 
+/* features section start*/
+    #features {
+        margin-top: 5rem !important;
+        /* padding-top: 10px; */
+    }
+    #features h2 {
+        font-weight: 900;
+        line-height: 47px;
+        font-size: 2.5rem !important;
+    }
+    #features ul.linkediting {
+        list-style: none;
+    }
+    #features .linkediting li {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        padding-bottom: 25px;
+    }
+    #features .linkediting li a {
+        color: rgb(200, 207, 210) !important;
+    }
+    #features .linkediting li a:hover,#features .linkediting li a:focus,#features .linkediting li a.first{
+        color: #4d0f28 !important;
+    }
+    #features .first-one {
+        width: 90%;
+        margin-left:35px;
+        border-radius: 5px;
+    }
+    #features .second-one {
+        width: 59%;
+        top: 239px;
+        position: absolute;
+        display: block;
+        border-radius: 5px;
+        height: 32%;    
+    }
+/* features section end */
 /* nightmode styling */
 .dark-mode {
     background-color: black !important;
