@@ -179,9 +179,10 @@ img.custom:focus {
 
 
 /* header styling start */
-/* .masthead {
-    color: white !important;
-} */
+.navbar-logo-img {
+    width: 170px;
+    height: 47px;
+}
 #mainNav a {
     color: #4d0f28 !important;
     font-weight: 800;
@@ -191,6 +192,14 @@ img.custom:focus {
 }
 #contactus {
     border-radius: 70px;
+}
+#moon-img{
+    padding-top: 0px;
+    color: black !important;
+}
+.text-typing {
+    line-height: 61px;
+    padding-top: 177px;
 }
 /* header styling end */
 
@@ -308,7 +317,7 @@ img.custom:focus {
         padding-bottom: 25px;
     }
     #features .linkediting li a {
-        color: rgb(200, 207, 210) !important;
+        color: grey !important;
     }
     #features .linkediting li a:hover,#features .linkediting li a:focus,#features .linkediting li a.first{
         color: #4d0f28 !important;
@@ -327,11 +336,71 @@ img.custom:focus {
         height: 32%;    
     }
 /* features section end */
-/* nightmode styling */
+
+/* nightmode styling start*/
 .dark-mode {
     background-color: black !important;
     color: white !important;
 }
+.dark-mode #mainNav a {
+    color: white !important;
+}
+.dark-mode #mainNav.navbar-shrink {
+    background: black !important;
+}
+.dark-mode #home{
+    background-position: 0% 50%;
+}
+.dark-mode #moon-img{
+    color: white !important;
+}
+.dark-mode .mast-head {
+    color: white !important;
+}
+.dark-mode .text-typing{
+    line-height: 61px;
+    padding-top: 177px;
+}
+.dark-mode .founder {
+    background-image: none;
+}
+.dark-mode #full-faq .card{
+    background-color: transparent !important;
+}
+.dark-mode #full-faq h2{
+    color: white !important;
+}
+.dark-mode #full-faq button{
+    color: black !important;
+}
+.dark-mode .footer-links li a {
+    color: white !important;
+}
+.dark-mode .copyright-area a{
+    color: white;
+}
+.dark-mode #features .linkediting li a:hover,.dark-mode #features .linkediting li a:focus, .dark-mode #features .linkediting li a.first{
+    color: white !important;
+}
+.dark-mode .btn-primary {
+    background-color: #fff;
+    color: black;
+}
+.dark-mode #home {
+    background: linear-gradient( 119deg, black 61.5%, white 38%) !important;
+}
+.dark-mode #about {
+    /* background: green !important;
+background: -moz-linear-gradient(45deg, green 50%, white 50%) !important;
+background: -webkit-linear-gradient(45deg, green 50%, white 50%) !important;
+background: linear-gradient(45deg, green 50%, white 50%) !important; */
+background: linear-gradient( 119deg, white 41%, black 40%) !important;
+}
+.dark-mode #about h2{
+    color: black !important;
+}
+/* nightmode styling end */
+
 /* desktop view start*/
 @media(min-width: 768px) {
 .icons-hanging {

@@ -17,16 +17,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="page-top" class="">
     <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="padding-top: 4px; padding-bottom: 4px;">
-        <div class="container-fluid"><a href="index.html"><img src="assets/img/wolfwizard logo cs6-8.png" style="width: 170px; height:47px;"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        <div class="container-fluid"><a href="index.html"><img id="navbar-logo-img" src="assets/img/wolfwizard logo cs6-8.png" style="width: 170px; height:47px;"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
         <div class="container ml-0">
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-5 pt-3">
                     <li class="nav-item nav-link "><a class="nav-link " href="#home">Home</a></li>
                     <li class="nav-item nav-link "><a class="nav-link " href="#about">ABOUT US</a></li>
                     <li class="nav-item nav-link "><a class="nav-link " href="#contact">CONTACT</a></li>
-                    <li class="nav-item nav-link"><a class="p-0" onclick="toggle()"><i class="fa fa-moon-o fa-1x" style="padding-top:0px; color:black;"></i></a></li>
+                    <li class="nav-item nav-link" onclick="toggle()"><a id="moon-img" class="p-0"><i class="fa fa-moon-o fa-1x"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -48,7 +48,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <h1 style="line-height: 61px; padding-top:177px;">
+                        <h1 class="text-typing">
                         <span class="txt-rotate" data-period="1000" data-rotate='[ "Making the music journey worthwhile", "Creating a bigger online presence at indie style", "Staying true to our values & being down to earth, close to our vision" ]'></span></h1>
                     </div>
                     <div class="col-lg-4 text-center" style="background-image: url('assets/img/Object.png'); background-repeat: no-repeat; background-size: contain; background-position: 50%;">
@@ -332,7 +332,7 @@
         <div class="col-md-6 p-3">
           <div class="footer-widget-heading">
             <!-- <h4>WolfWizard</h4> -->
-            <img src="assets/img/wolfwizard logo cs6-8.png" alt="" style="width: 284px;">
+            <img id="footer-img" src="assets/img/wolfwizard logo cs6-8.png" alt="" style="width: 284px;">
         </div>
           <p class="pt-3">Address :<br>
             S-2, 244, Vaishnavi lake view apartment, 8th main, NTI layout, Vidyaranyapura, Bangalore - 560097</p>

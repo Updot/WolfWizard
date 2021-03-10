@@ -73,3 +73,28 @@ var TxtRotate = function(el, toRotate, period) {
     document.body.appendChild(css);
   };
   
+  // darkmode function
+  function toggle() {
+    var className = document.getElementById("page-top");
+    if(className.classList[0]!="dark-mode") {
+        className.classList.add("dark-mode");
+        // changing image logo
+        document.getElementById("navbar-logo-img").src = "assets/img/main-dark.png";
+        // changing header background image
+        // document.getElementById("home").style.backgroundImage = "url('assets/img/2-dark.png')";
+        // changing about background image
+        // document.getElementById("about").style.backgroundImage = "url('assets/img/1-dark.png')";
+        // changing footer image
+        document.getElementById("footer-img").src="assets/img/main-dark.png";
+    }
+    else {
+        document.getElementById("navbar-logo-img").src = "assets/img/wolfwizard logo cs6-8.png";
+        className.classList.remove("dark-mode");
+        // changing header background image
+        // document.getElementById("home").style.backgroundImage = "url('assets/img/Artboard\ 1.png')";
+        // changing about background image
+        // document.getElementById("about").style.backgroundImage = "url('assets/img/Artboard\ 1\ copy.png')";
+        // changing footer image
+        document.getElementById("footer-img").src="assets/img/wolfwizard logo cs6-8.png";
+    }
+  }
