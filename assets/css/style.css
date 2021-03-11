@@ -221,6 +221,19 @@ img.custom:focus {
     .navbar-nav {
         margin-left: 0px !important;
     }
+    /* dark mode start */
+    .dark-mode #home{
+        background: black !important;
+    }
+    .dark-mode #about {
+    background: black !important;
+    }
+    .dark-mode #about h2{
+        color: white !important;
+    }
+    .dark-mode #mainNav .navbar-toggler {
+        color: white !important;
+    }
 }
 
 
@@ -460,15 +473,6 @@ img.custom:focus {
     background-color: #fff;
     color: black;
 }
-.dark-mode #home {
-    background: linear-gradient( 119deg, black 61.5%, white 38%) !important;
-}
-.dark-mode #about {
-background: linear-gradient( 119deg, white 41%, black 40%) !important;
-}
-.dark-mode #about h2{
-    color: black !important;
-}
 /* nightmode styling end */
 
 /* desktop view start*/
@@ -496,6 +500,15 @@ background: linear-gradient( 119deg, white 41%, black 40%) !important;
         font-weight: 900;
         line-height: 47px;
         font-size: 2.5rem !important;
+    }
+    .dark-mode #home {
+        background: linear-gradient( 119deg, black 61.5%, white 38%) !important;
+    }
+    .dark-mode #about {
+    background: linear-gradient( 119deg, white 41%, black 40%) !important;
+    }
+    .dark-mode #about h2{
+        color: black !important;
     }
 }
 /* footer styling start */
