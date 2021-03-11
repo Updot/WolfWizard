@@ -234,6 +234,9 @@ img.custom:focus {
     .dark-mode #mainNav .navbar-toggler {
         color: white !important;
     }
+    .text-typing {
+        padding-left:39px;
+    }
 }
 
 
