@@ -47,19 +47,19 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 col-sm-6 col-md-6">
                         <h1 class="text-typing">
-                        <span class="txt-rotate" data-period="1000" data-rotate='[ "Making the music journey worthwhile", "Creating a bigger online presence at indie style", "Staying true to our values & being down to earth, close to our vision" ]'></span></h1>
+                        <span class="txt-rotate" data-period="1000" data-rotate='[ "Making the music journey worthwhile", "Creating a bigger online presence at indie style", "Staying true to our values", "Being down to earth, close to our vision" ]'></span></h1>
                     </div>
-                    <div class="col-lg-4 text-center" style="background-image: url('assets/img/Object.png'); background-repeat: no-repeat; background-size: contain; background-position: 50%;">
+                    <div id="mobile-img" class="col-lg-4 col-sm-6 col-md-6 text-center" style="background-image: url('assets/img/Object.png'); background-repeat: no-repeat; background-size: contain; background-position: 50%;">
                         <!-- <img src="assets/img/Object.png" alt="" style="display: inline;"> -->
                         <img src="assets/img/probs-1.1.png" style="position: absolute; width: 64%; height: 54%; right: 183px; top: -19px;">
                         <img src="assets/img/Graphic4.png" alt="" style="height: 92%; margin-top: 16px;">
                         <img src="assets/img/sols-1.0.png" alt="" style="position: absolute; width: 74%; height: 54%; top: 222px; left: 207px;">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6">
+                <div class="row" id="ctc-btn">
+                    <div class="col-lg-6" id="contact-us">
                         <a id="contactus" href="#contact" class="btn btn-primary ">Contact Us</a>
                         <a id="contactus" href="#contact" class="btn btn-secondary ml-5">Learn more</a>
                     </div>
@@ -82,18 +82,18 @@
     <section id="about" class="content-section text-justify next-head" style="background-image: url('assets/img/Artboard\ 1\ copy.png');">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4" data-aos="fade-right">
+                <div class="col-lg-4" data-aos="fade-down">
                     <h2 style="margin-bottom: 30px;">About Us</h2>
                 </div>
             </div>
         </div>
-        <section style="background-image: url('assets/img/Layer\ 3.png'); opacity: 5; background-repeat: no-repeat;">
+        <section id="human" style="background-image: url('assets/img/Layer\ 3.png'); opacity: 5; background-repeat: no-repeat;">
             <div class="container">
                 <div class="row">
-                    <!-- <div class="col-lg-4 mx-auto" data-aos="fade-right">
+                    <!-- <div class="col-lg-4 mx-auto" data-aos="fade-down">
                         <h2 style="margin-bottom: 30px;">About Us</h2>
                     </div> -->
-                    <div class="col-lg-6 ml-auto text-justify" data-aos="fade-left" style="margin-top: 65px;">
+                    <div class="col-lg-6 ml-auto text-justify" data-aos="fade-down" style="margin-top: 65px;">
                         <!-- <img id="about-img" src="assets/img/dancing-concert-while-singer-is-performing-surrounded-by-lights.jpg" alt="" style="width: 550px; height:80%;"> -->
                         <p>Wolf Wizard is a platform for artists where one can network, volunteer, shop/book services or products and indulge in events.
                             We aim to bridge the gap between the artists and the service providers and also, an effective way of networking along with finding collaborations easily in a detailed way.
@@ -114,13 +114,13 @@
     <section class="founder">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 text-justify" data-aos="fade-right">
+                <div class="col-lg-8 text-justify" data-aos="fade-down">
                     <h2>Our Founder</h2>
                     <p class="founder-info">When I started my journey as a Lyricist and A&R three years ago, I've found myself in various hardships and as someone who has just begun her music journey in a new city, 
                         networking was an issue and there came several problems along with it. That's when I discovered an idea to create something that would solve the problems that indie artists face.
                         I believe that age is just a number and we all are capable of doing stuff that we love as long as we have confidence and a vision in life.</p>
                 </div>
-                <div class="col-lg-4 text-center" data-aos="fade-left">
+                <div class="col-lg-4 text-center" data-aos="fade-down">
                     <!-- <h2 id="founder-mobile">Our Founder</h2> -->
                     <img src="assets/img/IMG-20190324-WA0103.jpg" alt="" class="rounded-circle mx-auto" style="width: 240px; height: 270px;">
                     <p class="text-center">Vaishnavi M R<br>Founder of WolfWizard</p>
@@ -128,8 +128,8 @@
             </div>
         </div>
         <div class="container">
-            <div class="row" data-aos="fade-right">
-                <!-- <div id="about-img" class="col-lg-6 ml-auto" data-aos="fade-left">
+            <div class="row" data-aos="fade-down">
+                <!-- <div id="about-img" class="col-lg-6 ml-auto" data-aos="fade-down">
                     <img src="assets/img/close-up-recording-video-with-smartphone-during-concert-toned-picture.jpg" alt="" style="width: 550px; height:80%;">
                 </div> -->
                 <div class="col-lg-6">
@@ -149,24 +149,25 @@
     <section id="features">
         <div class="container">
             <div class="row" data-aos="fade-down">
-                <div class="col-lg-3">
-                    <h2 style="text-transform:none;">Built for musicians</h2>
-                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                <div class="col-lg-3 col-sm-12">
+                    <h2 style="text-transform:none; text-align: center;">Built for<br> musicians</h2>
+                    <a href="#contact" id="desktop" class="btn btn-primary">Contact Us</a>
                 </div>
                 <div class="col-lg-4">
                     <ul class="linkediting">
                         <li><a href="#" class="first">Music Labels</a></li>
                         <li><a href="#">Music event</a></li>
-                        <li><a href="#">Custom song making request</a></li>
+                        <li><a href="#">Custom song<br>making request</a></li>
                         <li><a href="#">Music Store</a></li>
                         <li><a href="#">Social Media Manager</a></li>
                         <li><a href="#">Music space for rent</a></li>
                         <li><a href="#">Music School/Classes</a></li>
-                        <li><a href="#">Cinematographer & Photographer For music purpose</a></li>
+                        <li><a href="#">Cinematographer & Photographer<br>For music purpose</a></li>
                         <li><a href="#">Music studios</a></li>
                     </ul>
+                    <div id="mobile" ><a href="#contact" class="btn btn-primary">Contact Us</a></div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5" id="feature-img">
                     <img class="first-one" src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel" >
                     <img class="second-one" src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
                 </div>

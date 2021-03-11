@@ -145,6 +145,85 @@ img.custom:focus {
   transition: transform .2s;
   transform: scale(1.0);
 }
+/* mobile view start */
+@media(max-width:568px){
+    #about h2{
+        font-size:1.3rem !important;
+    }
+    .masthead {
+        padding-top:150px !important;
+        height: 94vh;
+    }
+    .text-typing {
+        line-height: 61px;
+        padding-top: 0px !important;
+        font-size: 1.5em !important;
+    }
+    #mobile-img{
+        display:none !important;
+    }
+    /* #contact-us{
+        margin-top:70px;
+        padding-top:60px;
+    } */
+    #ctc-btn{
+        position: absolute;
+        top: 83%;
+    }
+    #human{
+        background-image: none !important;
+    }
+    #about h2 {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 5px;
+        /* font-size: 2rem !important; */
+    }
+    #about {
+        background-size: 758px 71px !important;
+    }
+    #desktop {
+        display: none;
+    }
+    #features h2 {
+        font-weight: 900;
+        line-height: 36px;
+        font-size: 2rem !important;
+    }
+    #features .linkediting {
+        padding-left: 0px !important;
+    }
+    #features .linkediting li{
+        text-align: center;
+        font-size: 1rem !important;
+    }
+    #mobile {
+        text-align: center;
+    }
+    #feature-img{
+        display: none;
+    }
+    #full-faq {
+        padding-top: 50px !important;
+    }
+    #full-faq .faq-area .card .card-header h2 button {
+        font-size: 1rem !important;
+    }
+    .section-heading h2{
+        font-weight: 600px !important;
+    }
+    #mainNav.navbar-shrink {
+        background: #fff !important;
+    }
+    #mainNav .navbar-toggler {
+        color: #4d0f28 !important;
+    }
+    .navbar-nav {
+        margin-left: 0px !important;
+    }
+}
+
+
 @media(max-width: 768px) {
     #mainNav {
         border-bottom: none;
@@ -175,6 +254,12 @@ img.custom:focus {
     #about-img img{
         width: 100% !important;
     }
+    /* #about h2 {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 2rem !important;
+    } */
 }
 
 
@@ -209,12 +294,7 @@ img.custom:focus {
     background-repeat: no-repeat;
     background-size: 1500px 800px;
 }
-#about h2 {
-    color: white;
-    font-weight: bold;
-    letter-spacing: 5px;
-    font-size: 2rem !important;
-}
+
 /* about us end */
 
 /* founder styling start */
@@ -237,7 +317,6 @@ img.custom:focus {
   }
   .section-heading h2 {
     font-size: 30px;
-    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
@@ -302,11 +381,6 @@ img.custom:focus {
     #features {
         margin-top: 5rem !important;
         /* padding-top: 10px; */
-    }
-    #features h2 {
-        font-weight: 900;
-        line-height: 47px;
-        font-size: 2.5rem !important;
     }
     #features ul.linkediting {
         list-style: none;
@@ -390,10 +464,6 @@ img.custom:focus {
     background: linear-gradient( 119deg, black 61.5%, white 38%) !important;
 }
 .dark-mode #about {
-    /* background: green !important;
-background: -moz-linear-gradient(45deg, green 50%, white 50%) !important;
-background: -webkit-linear-gradient(45deg, green 50%, white 50%) !important;
-background: linear-gradient(45deg, green 50%, white 50%) !important; */
 background: linear-gradient( 119deg, white 41%, black 40%) !important;
 }
 .dark-mode #about h2{
@@ -403,6 +473,9 @@ background: linear-gradient( 119deg, white 41%, black 40%) !important;
 
 /* desktop view start*/
 @media(min-width: 768px) {
+#mobile {
+    display: none;
+}
 .icons-hanging {
         background-color: black;
         padding-left: 16px;
@@ -412,6 +485,17 @@ background: linear-gradient( 119deg, white 41%, black 40%) !important;
     }
 .title {
     font-size: 70px !important;
+    }
+    #about h2 {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 2rem !important;
+    }
+    #features h2 {
+        font-weight: 900;
+        line-height: 47px;
+        font-size: 2.5rem !important;
     }
 }
 /* footer styling start */
