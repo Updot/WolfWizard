@@ -345,12 +345,6 @@ img.custom:focus {
     padding: 120px 0;
   }
   
-  #full-faq .faq-area .card {
-    border: 0;
-    margin: 8px 0;
-    overflow: visible;
-  }
-  
   #full-faq .faq-area .card .card-header {
     border: 0;
     padding: 0;
@@ -484,7 +478,7 @@ img.custom:focus {
     display: none;
 }
 .icons-hanging {
-        background-color: black;
+        background-color: #4d0f28;
         padding-left: 16px;
         padding-right: 15px;
         padding-top: 12px;
@@ -513,6 +507,15 @@ img.custom:focus {
     .dark-mode #about h2{
         color: black !important;
     }
+    .accordion.faq-area h3 button{
+        text-transform: capitalize;
+        font-size: large;
+    }
+    #full-faq .faq-area .card {
+        border: 0;
+        margin-bottom: 16px;
+        overflow: visible;
+      }
 }
 /* footer styling start */
 #primary-footer .linkediting {
