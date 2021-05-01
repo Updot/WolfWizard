@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-    <!-- <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>-->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> 
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
@@ -19,7 +17,7 @@
 
 <body id="page-top" class="">
     <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="padding-top: 4px; padding-bottom: 4px;">
-        <div class="container-fluid"><a href="index.html"><img id="navbar-logo-img" src="assets/img/wolfwizard logo cs6-8.png" style="width: 170px; height:47px;"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        <div class="container-fluid"><a href="index.html"><img id="navbar-logo-img" src="assets/img/wolfwizard logo cs6-8.png" style="width: 170px; height:47px;"></a><button data-toggle="collapse" data-target="#" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><a id="moon-img" class="p-0" onclick="toggle()"><i class="fa fa-moon-o fa-1x"></i></a></button>
         <div class="container ml-0">
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-5 pt-3">
@@ -43,7 +41,8 @@
         </div>
     </section>
     <!-- style="background-image:url('assets/img/main-demo-bg.jpg');" -->
-    <header id="home" class="masthead" style="background-image:url('assets/img/Artboard\ 1.png');">
+    <!-- style="background-image: url('assets/img/mob2.png'); background-repeat: no-repeat; background-size: cover; background-position-x: center;" -->
+    <header id="home" class="masthead">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -51,8 +50,8 @@
                         <h1 class="text-typing">
                         <span class="txt-rotate"  data-period="1000" data-rotate='[ "Making the music journey worthwhile", "Creating a bigger online presence at indie style", "Staying true to our values", "Being down to earth, close to our vision" ]'></span></h1>
                     </div>
-                    <div id="mobile-img" class="col-lg-5 col-sm-6 col-md-6 text-center" style="background-repeat: no-repeat; background-size: contain; background-position: 50%;">
-                        <img src="assets/img/Mobile.png" alt="" style="width:70%; margin-top: 16px; display: inline;">
+                    <div class="col-lg-5 col-sm-6 col-md-6 text-center" style="background-repeat: no-repeat; background-size: contain; background-position: 50%;">
+                        <img id="mobile-img" src="assets/img/Mobile.png" alt="" style="width:70%; margin-top: 16px; display: inline;">
                         <!-- <img style="display: none;" src="assets/img/probs-1.1.png" style="position: absolute; width: 64%; height: 54%; right: 183px; top: -19px;">
                         <img style="display: none;"src="assets/img/Graphic4.png" alt="" style="height: 92%; margin-top: 16px;">
                         <img style="display: none;"src="assets/img/sols-1.0.png" alt="" style="position: absolute; width: 74%; height: 54%; top: 222px; left: 207px;"> -->
@@ -151,26 +150,23 @@
             <div class="row" data-aos="fade-down">
                 <div class="col-lg-3 col-sm-12">
                     <h2 style="text-transform:none; text-align: center;">Built for<br> musicians</h2>
-                    <a href="#contact" id="desktop" class="ebtn btn-primary">Contact Us</a>
+                    <a href="#contact" id="desktop" class="btn btn-primary">Contact Us</a>
                 </div>
                 <div class="col-lg-4">
                     <ul class="linkediting">
-                        <li><a href="#" class="first">Music Labels</a></li>
-                        <li><a data-toggle="modal" href="#feature-img events" aria-controls="events">Music event</a></li>
-                        <li><a href="#">Custom song<br>making request</a></li>
-                        <li><a href="#">Music Store</a></li>
-                        <li><a href="#">Social Media Manager</a></li>
-                        <li><a href="#">Music space for rent</a></li>
-                        <li><a href="#">Music School/Classes</a></li>
-                        <li><a href="#">Cinematographer & Photographer<br>For music purpose</a></li>
-                        <li><a href="#">Music studios</a></li>
+                        <li><a href="#musicLabels" class="first" onclick="display();">Music Labels</a></li>
+                        <li><a href="#feature-img events" aria-controls="events" onclick="display()">Music event</a></li>
+                        <li><a href="#" onclick="display()">Custom song<br>making request</a></li>
+                        <li><a href="#" onclick="display()">Music Store</a></li>
+                        <li><a href="#" onclick="display()">Social Media Manager</a></li>
+                        <li><a href="#" onclick="display()">Music space for rent</a></li>
+                        <li><a href="#" onclick="display()">Music School/Classes</a></li>
+                        <li><a href="#" onclick="display()">Cinematographer & Photographer<br>For music purpose</a></li>
+                        <li><a href="#" onclick="display()">Music studios</a></li>
                     </ul>
                     <div id="mobile" ><a href="#contact" class="btn btn-primary">Contact Us</a></div>
                 </div>
-                <div class="col-lg-5" id="feature-img events">
-                    <img class="first-one" src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel" >
-                    <img class="second-one" src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
-                </div>
+                        
             </div>
         </div>
     </section>
@@ -456,31 +452,9 @@
         </div>
           <!-- <p class="pt-3">Address :<br>
             S-2, 244, Vaishnavi lake view apartment, 8th main, NTI layout, Vidyaranyapura, Bangalore - 560097</p> -->
-        </div>
-        <!-- <div class="col-md-2 p-3">
-          <div class="footer-widget-heading">
-            <h4>Products</h4>
           </div>
-                <ul class="linkediting">
-                          <li><a href="#">Subscriptions</a></li>
-                          <li><a href="#">Developers</a></li>
-                          <li><a href="#">Advertising</a></li>
-                          <li><a href="#">Investors</a></li>
-                          <li><a href="#">Vendors</a></li>
-                      </ul>
-          </div>
-        <div class="col-md-2 p-3">
-          <div class="footer-widget-heading">
-            <h4>Company</h4>
-          </div>
-          <ul class="linkediting">
-                          <li><a href="#">About Us</a></li>
-                          <li><a href="#">Contact Us</a></li>
-                          <li><a href="#">Testimonials</a></li>
-            </ul>
-        </div> -->
-        <div class="col-md-2 p-3">
-            <div class="footer-social-icon">
+        <div class="col-md-2 p-3 download">
+            <!-- <div class="footer-social-icon">
                 <h4 class="social-title">Follow us</h4>
                 <ul class="footer-links">
                     <li><a href="https://m.facebook.com/WolfWizardApp/ " target="_blank"><i class="fa fa-facebook-f circle-icon fa-1x"></i></a></li>
@@ -488,7 +462,8 @@
                     <li><a href="https://twitter.com/WolfWizardMusic?s=09 " target="_blank"><i class="fa fa-twitter circle-icon fa-1x"></i></a></li>
                     <li><a href="https://wa.me/message/R3CWCWA6G2SCE1" target="_blank"><i class="fa fa-whatsapp circle-icon fa-1x"></i></a></li>
                 </ul>
-            </div>  
+            </div>   -->
+            <img src="assets/img/NicePng_apple-app-store-logo_2229091.png" alt="" >
         </div>  
       </div>
     </div>
