@@ -293,6 +293,9 @@ img.custom:focus {
     .download img{
         width: 70%;
     }
+    .music-label{
+        margin-left:50px;
+    }
 }
 
 
@@ -553,6 +556,11 @@ img.custom:focus {
     }
     .download img{
         width: 100%;
+    }
+    .music-label{
+        position: absolute;
+        margin-left:100px;
+        width: 200%;
     }
 }
 /* footer styling start */
