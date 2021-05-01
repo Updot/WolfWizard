@@ -98,3 +98,8 @@ var TxtRotate = function(el, toRotate, period) {
         document.getElementById("footer-img").src="assets/img/wolfwizard logo cs6-8.png";
     }
   }
+
+  function display(){
+    var href = document.getElementById(id);
+    href.style.display = "block";
+  }
