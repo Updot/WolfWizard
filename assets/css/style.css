@@ -305,7 +305,7 @@ h2 {
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     border-bottom: solid 3px #e3e8ec;
-    background-color: #f5f8fa;
+    background-color: #fff;
   }
   
   #full-faq .faq-area .card .card-header h2 button {
@@ -331,7 +331,7 @@ h2 {
   }
   
   #full-faq .faq-area .card .card-header.active {
-    background-color: #fffef8;
+    background-color: #fff;
   }
   
   #full-faq .faq-area .card .card-header.active span {
