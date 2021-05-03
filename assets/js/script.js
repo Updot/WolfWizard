@@ -99,7 +99,14 @@ var TxtRotate = function(el, toRotate, period) {
     }
   }
 
-  function display(){
-    var href = document.getElementById(id);
-    href.style.display = "block";
-  }
+/*******************************
+* ACCORDION WITH TOGGLE ICONS
+*******************************/
+function toggleIcon(e) {
+  $(e.target)
+      .prev('.card-header')
+      .find(".more-less")
+      .toggleClass('fa-plus fa-minus');
+}
+$('.accordion').on('hidden.bs.collapse', toggleIcon);
+$('.accordion').on('shown.bs.collapse', toggleIcon);

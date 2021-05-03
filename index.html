@@ -46,15 +46,12 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 col-sm-6 col-md-6">
+                    <div class="col-lg-7 col-sm-6 col-md-6 align-self-center">
                         <h1 class="text-typing">
                         <span class="txt-rotate"  data-period="1000" data-rotate='[ "Making the music journey worthwhile", "Creating a bigger online presence at indie style", "Staying true to our values", "Being down to earth, close to our vision" ]'></span></h1>
                     </div>
                     <div class="col-lg-5 col-sm-6 col-md-6 text-center" style="background-repeat: no-repeat; background-size: contain; background-position: 50%;">
-                        <img id="mobile-img" src="assets/img/Mobile.png" alt="" style="width:70%; margin-top: 16px; display: inline;">
-                        <!-- <img style="display: none;" src="assets/img/probs-1.1.png" style="position: absolute; width: 64%; height: 54%; right: 183px; top: -19px;">
-                        <img style="display: none;"src="assets/img/Graphic4.png" alt="" style="height: 92%; margin-top: 16px;">
-                        <img style="display: none;"src="assets/img/sols-1.0.png" alt="" style="position: absolute; width: 74%; height: 54%; top: 222px; left: 207px;"> -->
+                        <img id="mobile-img" src="assets/img/Mobile.png" alt="">
                     </div>
                 </div>
                 <div class="row" id="ctc-btn">
@@ -81,7 +78,7 @@
     <section id="about" class="content-section text-justify next-head" style="background-image: url('assets/img/Artboard\ 1\ copy.png');">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4" data-aos="fade-down">
+                <div class="col-lg-4">
                     <h2 style="margin-bottom: 30px;">About Us</h2>
                 </div>
             </div>
@@ -92,7 +89,7 @@
                     <!-- <div class="col-lg-4 mx-auto" data-aos="fade-down">
                         <h2 style="margin-bottom: 30px;">About Us</h2>
                     </div> -->
-                    <div class="col-lg-6 ml-auto text-justify" data-aos="fade-down" style="margin-top: 65px;">
+                    <div class="col-lg-6 ml-auto text-justify" style="margin-top: 65px;">
                         <!-- <img id="about-img" src="assets/img/dancing-concert-while-singer-is-performing-surrounded-by-lights.jpg" alt="" style="width: 550px; height:80%;"> -->
                         <p>Wolf Wizard is a platform for artists where one can network, volunteer, shop/book services or products and indulge in events.
                             We aim to bridge the gap between the artists and the service providers and also, an effective way of networking along with finding collaborations easily in a detailed way.
@@ -113,13 +110,13 @@
     <section class="founder">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 text-justify" data-aos="fade-down">
+                <div class="col-lg-8 text-justify">
                     <h2>Our Founder</h2>
                     <p class="founder-info">When I started my journey as a Lyricist and A&R three years ago, I've found myself in various hardships and as someone who has just begun her music journey in a new city, 
                         networking was an issue and there came several problems along with it. That's when I discovered an idea to create something that would solve the problems that indie artists face.
                         I believe that age is just a number and we all are capable of doing stuff that we love as long as we have confidence and a vision in life.</p>
                 </div>
-                <div class="col-lg-4 text-center" data-aos="fade-down">
+                <div class="col-lg-4 text-center">
                     <!-- <h2 id="founder-mobile">Our Founder</h2> -->
                     <img src="assets/img/IMG-20190324-WA0103.jpg" alt="" class="rounded-circle mx-auto" style="width: 240px; height: 270px;">
                     <p class="text-center">Vaishnavi M R<br>Founder of WolfWizard</p>
@@ -127,7 +124,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row" data-aos="fade-down">
+            <div class="row">
                 <!-- <div id="about-img" class="col-lg-6 ml-auto" data-aos="fade-down">
                     <img src="assets/img/close-up-recording-video-with-smartphone-during-concert-toned-picture.jpg" alt="" style="width: 550px; height:80%;">
                 </div> -->
@@ -147,138 +144,151 @@
     </section>
     <section id="features">
         <div class="container">
-            <div class="row" data-aos="fade-down">
+            <div class="row">
                 <div class="col-lg-3 col-sm-12">
                     <h2 style="text-transform:none; text-align: center;">Built for<br> musicians</h2>
-                    <a href="#contact" id="desktop" class="btn btn-primary">Contact Us</a>
+                    <!-- <a href="#contact" id="desktop" class="btn btn-primary">Contact Us</a> -->
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-9">
                     <ul class="linkediting">
-                        <!-- <li>
+                        <div class="accordion" id="accordionExample">
                             <div class="card">
-                                <div class="card-header active" id="heading1">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse1" aria-expanded="false"
-                                            aria-controls="collapse1">
-                                            Music Labels
-                                        </button>
-                                    </h3>
+                              <div class="card-header flex-grow-1" id="headingOne">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Music Labels
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body align-self-start">
+                                    <img src="assets/img/music label 1.png" alt="" class="first-music-label">  
                                 </div>
-                                <div id="collapse1" class="collapse show" aria-labelledby="heading1"
-                                    data-parent="#accordionExample">
-                                    <div class="">
-                                        <img src="assets/img/music label 1.png" alt="" class=" card-body music-label">
-                                    </div>
-                                </div>
+                              </div>
                             </div>
+                            <!-- 2nd -->
                             <div class="card">
-                                <div class="card-header" id="heading2">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
-                                            aria-controls="collapse2">
-                                            Music Events
-                                        </button>
-                                    </h3>
+                              <div class="card-header" id="headingTwo" style="margin-top:-14px">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Music event
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <img src="assets/img/music event.png" alt="" class="second-music-label">
                                 </div>
-                                <div id="collapse2" class="collapse show" aria-labelledby="heading2"
-                                    data-parent="#accordionExample">
-                                    <div class="">
-                                        <img src="assets/img/music label 1.png" alt="" class=" card-body music-label">
-                                    </div>
-                                </div>
+                              </div>
                             </div>
+                            <!-- 3rd -->
                             <div class="card">
-                                <div class="card-header" id="heading3">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
-                                            aria-controls="collapse3">
-                                            Music Labels
-                                        </button>
-                                    </h3>
+                              <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Custom song<br>making request
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <img src="assets/img/csm3.png" alt="" class="third-music-label">
                                 </div>
-                                <div id="collapse3" class="collapse" aria-labelledby="heading3"
-                                    data-parent="#accordionExample">
-                                    <div >
-                                        <img src="assets/img/music label 1.png" alt="" class=" card-body music-label">
-                                    </div>
-                                </div>
+                              </div>
                             </div>
+                            <!-- 4th -->
                             <div class="card">
-                                <div class="card-header" id="heading4">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
-                                            aria-controls="collapse4">
-                                            Music Labels
-                                        </button>
-                                    </h3>
+                                <div class="card-header" id="headingFour">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Music Store
+                                    </button>
+                                  </h5>
                                 </div>
-                                <div id="collapse4" class="collapse" aria-labelledby="heading4"
-                                    data-parent="#accordionExample">
-                                    <div>
-                                        <img src="assets/img/music label 1.png" alt="" class=" card-body music-label">
-                                    </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                      <img src="assets/img/social media 5.png" alt="" class="fourth-music-label">
+                                  </div>
                                 </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="heading5">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse5" aria-expanded="false"
-                                            aria-controls="collapse5">
-                                            Music Labels
-                                        </button>
-                                    </h3>
+                              </div>
+                              <!-- 5th -->
+                              <div class="card">
+                                <div class="card-header col" id="headingFive">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Social Media Manager
+                                    </button>
+                                  </h5>
                                 </div>
-                                <div id="collapse5" class="collapse" aria-labelledby="heading5"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Please write to our email mentioning your concern.
-                                    </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                      <img src="assets/img/l4.jpg" alt="" class="fifth-music-label">
+                                  </div>
                                 </div>
-                            </div>
-                        </li> -->
-                        <li>
-                            <a href="#" >Music Labels</a>
-                            
-                        </li>
-                        <li>
-                            <a href="#" >Music event</a>
-                            
-                        </li>
-                        <li>
-                            <a href="#" onclick="display()">Custom song<br>making request</a>
-                        
-                        </li>
-                        <li>
-                            <a href="#" onclick="display()">Music Store</a>
-                        
-                        </li>
-                        <li>
-                            <a href="#" onclick="display()">Social Media Manager</a>
-                        
-                        </li>
-                        <li>
-                            <a href="#" onclick="display()">Music space for rent</a>
-                        
-                        </li>
-                        <li>
-                            <a href="#" onclick="display()">Music School/Classes</a>
-                        
-                        </li>
-                        <li>
-                            <a href="#" onclick="display()">Cinematographer & Photographer<br>For music purpose</a>
-                        
-                        </li>
-                        <li>
-                            <a href="#" onclick="display()">Music studios</a>
-                        
-                        </li>
+                              </div>
+                              <!-- 6th -->
+                              <div class="card">
+                                <div class="card-header col" id="headingSix">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Music space for rent
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                      <img src="assets/img/music space in rent.png" alt="" class="sixth-music-label">
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- 7th -->
+                              <div class="card">
+                                <div class="card-header col" id="headingSeven">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        Music School/Classes
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                      <img src="assets/img/Music SchoolClasses.png" alt="" class="seventh-music-label">
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- 8th -->
+                              <div class="card">
+                                <div class="card-header col" id="headingEight">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        Cinematographer & Photographer<br>For music purpose
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                      <img src="assets/img/Cinematographer &photographer for music purpose.png" alt="" class="eight-music-label">
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- 9th -->
+                              <div class="card">
+                                <div class="card-header col" id="headingNine">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                        Music studios
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                      <img src="assets/img/Music studio.png" alt="" class="ninth-music-label">
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
                     </ul>
-                    <div id="mobile" ><a href="#contact" class="btn btn-primary">Contact Us</a></div>
+                    <!-- <div id="mobile" ><a href="#contact" class="btn btn-primary">Contact Us</a></div> -->
                 </div>
                         
             </div>
@@ -287,7 +297,7 @@
     <section id="gallery">
         <div class="container gallery-container">
             <div class="tz-gallery">
-                <div class="row" data-aos="fade-down">
+                <div class="row">
                     <img src="assets/img/Collage option 1.png" alt="" style="width: 100%; height: 90%;"> 
                 </div>
             </div>
@@ -307,7 +317,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-9">
+                <div class="col-md-12">
                     <div class="accordion faq-area" id="accordionExample">
                             <div class="card">
                                 <div class="card-header active" id="heading1">
@@ -315,11 +325,11 @@
                                         <button class="btn btn-link btn-block text-left collapsed" type="button"
                                             data-toggle="collapse" data-target="#collapse1" aria-expanded="false"
                                             aria-controls="collapse1">
-                                            What can I do with Wolf Wizard as an artist ? <span class="fa fa-caret-up"></span>
+                                            What can I do with Wolf Wizard as an artist ? <span class="fa fa-plus more-less"></span>
                                         </button>
                                     </h3>
                                 </div>
-                                <div id="collapse1" class="collapse show" aria-labelledby="heading1"
+                                <div id="collapse1" class="collapse" aria-labelledby="heading1"
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         As an artist, you can find various music services and brands, filtering locations, budgets, and other specifications. We have newer features coming up as well.
@@ -332,7 +342,7 @@
                                         <button class="btn btn-link btn-block text-left collapsed" type="button"
                                             data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
                                             aria-controls="collapse2">
-                                            How can I book a service ? <span class="fa fa-caret-down"></span>
+                                            How can I book a service ? <span class="fa fa-plus more-less"></span>
                                         </button>
                                     </h3>
                                 </div>
@@ -349,7 +359,7 @@
                                         <button class="btn btn-link btn-block text-left collapsed" type="button"
                                             data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
                                             aria-controls="collapse3">
-                                            What if I'm running late and won't be able to make it on time for a music studio that I have been booked for ? <span class="fa fa-caret-down"></span>
+                                            What if I'm running late and won't be able to make it on time for a music studio that I have been booked for ? <span class="fa fa-plus more-less"></span>
                                         </button>
                                     </h3>
                                 </div>
@@ -366,7 +376,7 @@
                                         <button class="btn btn-link btn-block text-left collapsed" type="button"
                                             data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
                                             aria-controls="collapse4">
-                                            What if I won't be able to travel to avail myself of a service (Example: Music Studio, Music Space on rent, etc.) I've been booked for ? <span class="fa fa-caret-down"></span>
+                                            What if I won't be able to travel to avail myself of a service (Eg: Music Studio, Music Space on rent, etc.) I've been booked for ? <span class="fa fa-plus more-less"></span>
                                         </button>
                                     </h3>
                                 </div>
@@ -383,7 +393,7 @@
                                         <button class="btn btn-link btn-block text-left collapsed" type="button"
                                             data-toggle="collapse" data-target="#collapse5" aria-expanded="false"
                                             aria-controls="collapse5">
-                                            What if I have a problem with a service ? <span class="fa fa-caret-down"></span>
+                                            What if I have a problem with a service ? <span class="fa fa-plus more-less"></span>
                                         </button>
                                     </h3>
                                 </div>
@@ -409,107 +419,22 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-9">
+                <div class="col-md-12">
                     <div class="accordion faq-area" id="accordionExample">
-                            <div class="card">
-                                <div class="card-header active" id="heading1">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse1" aria-expanded="false"
-                                            aria-controls="collapse1">
-                                            What can I do with Wolf Wizard as a music service provider ? <span class="fa fa-caret-up"></span>
-                                        </button>
-                                    </h3>
-                                </div>
-                                <div id="collapse1" class="collapse show" aria-labelledby="heading1"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        As a music service provider, you can get your music services/brand onboarded on our platform where the artists could avail themselves of it. The payment would be processed from the app securely.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="heading2">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
-                                            aria-controls="collapse2">
-                                            If I'm having a music store, would I need to have a delivery facility ? <span class="fa fa-caret-down"></span>
-                                        </button>
-                                    </h3>
-                                </div>
-                                <div id="collapse2" class="collapse" aria-labelledby="heading2"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        You don't need to worry about the delivery facility. We'll be providing it.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="heading3">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
-                                            aria-controls="collapse3">
-                                            Do I have to pay to have my service/brand on the app ? <span class="fa fa-caret-down"></span>
-                                        </button>
-                                    </h3>
-                                </div>
-                                <div id="collapse3" class="collapse" aria-labelledby="heading3"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        No, Wolf Wizard is free to onboard the music service providers. However, we'll be charging a commission for every order.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="heading4">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
-                                            aria-controls="collapse4">
-                                            What is the process to get my music service/brand onboarded ? <span class="fa fa-caret-down"></span>
-                                        </button>
-                                    </h3>
-                                </div>
-                                <div id="collapse4" class="collapse" aria-labelledby="heading4"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        You will need to send details regarding the services and the pricing. Oh, and don't forget to send ID proof. You'll have a catalog designed by us and you'll be good to go.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="heading5">
-                                    <h3 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapse5" aria-expanded="false"
-                                            aria-controls="collapse5">
-                                            What else can I do apart from getting my service listed ? <span class="fa fa-caret-down"></span>
-                                        </button>
-                                    </h3>
-                                </div>
-                                <div id="collapse5" class="collapse" aria-labelledby="heading5"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        You can reply to customer reviews, run promotional offers and add special services.
-                                    </div>
-                                </div>
-                            </div>
                             <div class="card">
                                 <div class="card-header" id="heading6">
                                     <h3 class="mb-0">
                                         <button class="btn btn-link btn-block text-left collapsed" type="button"
                                             data-toggle="collapse" data-target="#collapse6" aria-expanded="false"
                                             aria-controls="collapse6">
-                                            Will promotional offers help ? <span class="fa fa-caret-down"></span>
+                                            What can I do with Wolf Wizard as a music service provider ? <span class="fa fa-plus more-less"></span>
                                         </button>
                                     </h3>
                                 </div>
                                 <div id="collapse6" class="collapse" aria-labelledby="heading6"
                                     data-parent="#accordionExample">
                                     <div class="card-body">
-                                        Promotional offers are a great way to promote your business to your customers on Wolf Wizard. Your Promo can be a Freebie, a Discount, or a Special.
+                                        As a music service provider, you can get your music services/brand onboarded on our platform where the artists could avail themselves of it. The payment would be processed from the app securely.
                                     </div>
                                 </div>
                             </div>
@@ -519,11 +444,96 @@
                                         <button class="btn btn-link btn-block text-left collapsed" type="button"
                                             data-toggle="collapse" data-target="#collapse7" aria-expanded="false"
                                             aria-controls="collapse7">
-                                            Where will the promotional offers be shown ? <span class="fa fa-caret-down"></span>
+                                            If I'm having a music store, would I need to have a delivery facility ? <span class="fa fa-plus more-less"></span>
                                         </button>
                                     </h3>
                                 </div>
                                 <div id="collapse7" class="collapse" aria-labelledby="heading7"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        You don't need to worry about the delivery facility. We'll be providing it.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading8">
+                                    <h3 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapse8" aria-expanded="false"
+                                            aria-controls="collapse8">
+                                            Do I have to pay to have my service/brand on the app ? <span class="fa fa-plus more-less"></span>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div id="collapse8" class="collapse" aria-labelledby="heading8"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        No, Wolf Wizard is free to onboard the music service providers. However, we'll be charging a commission for every order.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading9">
+                                    <h3 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapse9" aria-expanded="false"
+                                            aria-controls="collapse9">
+                                            What is the process to get my music service/brand onboarded ? <span class="fa fa-plus more-less"></span>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div id="collapse9" class="collapse" aria-labelledby="heading9"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        You will need to send details regarding the services and the pricing. Oh, and don't forget to send ID proof. You'll have a catalog designed by us and you'll be good to go.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading10">
+                                    <h3 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapse10" aria-expanded="false"
+                                            aria-controls="collapse10">
+                                            What else can I do apart from getting my service listed ? <span class="fa fa-plus more-less"></span>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div id="collapse10" class="collapse" aria-labelledby="heading10"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        You can reply to customer reviews, run promotional offers and add special services.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading11">
+                                    <h3 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapse11" aria-expanded="false"
+                                            aria-controls="collapse11">
+                                            Will promotional offers help ? <span class="fa fa-plus more-less"></span>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div id="collapse11" class="collapse" aria-labelledby="heading11"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Promotional offers are a great way to promote your business to your customers on Wolf Wizard. Your Promo can be a Freebie, a Discount, or a Special.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading12">
+                                    <h3 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapse12" aria-expanded="false"
+                                            aria-controls="collapse12">
+                                            Where will the promotional offers be shown ? <span class="fa fa-plus more-less"></span>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div id="collapse12" class="collapse" aria-labelledby="heading12"
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         They will be displayed on your brand's page on the mobile app. The goal is to increase exposure and drive customers.
@@ -535,51 +545,20 @@
             </div>
         </div>
     </section>
-    <!-- end faq -->
-
-    <!-- <section id="contact" class="content-section text-center">
-        <div class="container">
-            <div class="row" data-aos="fade-down">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Contact Us</h2>
-                    <p>Follow us on Social Media and stay tuned to updates</p>
-                    <ul class="footer-links">
-                        <li><a href="https://m.facebook.com/WolfWizardApp/ " target="_blank"><i class="fa fa-facebook-f circle-icon fa-2x"></i></a></li>
-                        <li><a href="https://instagram.com/wolfwizard.app?igshid=12uspfm79wmee" target="_blank"><i class="fa fa-instagram circle-icon fa-2x"></i></a></li>
-                        <li><a href="https://twitter.com/WolfWizardMusic?s=09 " target="_blank"><i class="fa fa-twitter circle-icon fa-2x"></i></a></li>
-                        <li><a href="https://wa.me/message/R3CWCWA6G2SCE1" target="_blank"><i class="fa fa-whatsapp circle-icon fa-2x"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    
+    <!-- end faq --> 
 
 <footer id="primary-footer">
     <!-- footer widget start -->
     <div class="container footer-widget-area">
-      <div class="row" data-aos="fade-down">
+      <div class="row">
         <div class="col-md-6 p-3">
           <div class="footer-widget-heading">
-            <!-- <h4>WolfWizard</h4> -->
             <img id="footer-img" src="assets/img/wolfwizard logo cs6-8.png" alt="" style="width: 284px;">
-        </div>
-          <!-- <p class="pt-3">Address :<br>
-            S-2, 244, Vaishnavi lake view apartment, 8th main, NTI layout, Vidyaranyapura, Bangalore - 560097</p> -->
-          </div>
-        <div class="col-md-2 p-3 download">
-            <!-- <div class="footer-social-icon">
-                <h4 class="social-title">Follow us</h4>
-                <ul class="footer-links">
-                    <li><a href="https://m.facebook.com/WolfWizardApp/ " target="_blank"><i class="fa fa-facebook-f circle-icon fa-1x"></i></a></li>
-                    <li><a href="https://instagram.com/wolfwizard.app?igshid=12uspfm79wmee" target="_blank"><i class="fa fa-instagram circle-icon fa-1x"></i></a></li>
-                    <li><a href="https://twitter.com/WolfWizardMusic?s=09 " target="_blank"><i class="fa fa-twitter circle-icon fa-1x"></i></a></li>
-                    <li><a href="https://wa.me/message/R3CWCWA6G2SCE1" target="_blank"><i class="fa fa-whatsapp circle-icon fa-1x"></i></a></li>
-                </ul>
-            </div>   -->
-            <img src="assets/img/NicePng_apple-app-store-logo_2229091.png" alt="" >
-        </div>  
+        </div> 
       </div>
+      <div class="col-md-2 p-3 download">
+        <img src="assets/img/NicePng_apple-app-store-logo_2229091.png" alt="" >
+    </div> 
     </div>
     <!-- footer widget end -->
       <hr>
@@ -592,14 +571,6 @@
                               <p>Designed by <a href="https://updot.in/" target="_blank">Updot</a></p>
                           </div>
           </div>
-          <!-- <div class="col-md-6">
-            <div class="footer-menus text-right">
-              <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Condition</a></li>
-                </ul>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
