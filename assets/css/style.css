@@ -108,6 +108,11 @@ h2 {
     #mobile-img{
         display:none !important;
     }
+    #mobile-img{
+        width: 80%;
+        margin-top: 16px;
+        margin-right: 74px;
+    }
     #ctc-btn{
         position: absolute;
         top: 83%;
@@ -125,6 +130,10 @@ h2 {
     }
     #desktop {
         display: none;
+    }
+    .founder .text-center{
+        margin-top:20px;
+        margin-bottom: 20px;
     }
     #features h2 {
         font-weight: 900;
