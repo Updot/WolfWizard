@@ -158,6 +158,16 @@ h2 {
     .navbar-nav {
         margin-left: 0px !important;
     }
+    .card button {
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+        text-align: left;
+        text-transform: none;
+        padding-bottom: 8px;
+    }
+    #mobile-col-row{
+        text-align: center;
+    }
     /* dark mode start */
     .dark-mode #home{
         background: black !important;
@@ -179,6 +189,44 @@ h2 {
     }
     .download img{
         width: 50%;
+    }
+    .first-music-label{
+        width: 89%;
+    }
+    .second-music-label{
+            width: 76%;
+    }
+    .third-music-label {
+        width: 79%;
+    }
+    .fourth-music-label {
+        width: 50%;
+    }
+    .fifth-music-label{
+            width: 79%;
+    }
+    .sixth-music-label{
+            width: 74%;
+    }
+    .seventh-music-label {
+        width: 80%;
+    }
+    .eight-music-label {
+        width: 76%;
+    }
+    .ninth-music-label {
+        width: 83%;
+    }
+    #features div.card{
+        border-width: 0px !important;
+        border-color: #fff !important;
+    }
+    #features .card-header{
+        background-color: white !important;
+        border-bottom: none !important;
+    }
+    #features .accordion > .card {
+        overflow: visible !important;
     }
 }
 
@@ -231,6 +279,13 @@ h2 {
     }
     .music-label{
         margin-left:50px;
+    }
+    .card button {
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+        text-align: left;
+        text-transform: none;
+        padding-bottom: 8px;
     }
 }
 
