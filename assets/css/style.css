@@ -84,12 +84,12 @@ h2 {
 } */
 /* mobile view start */
 @media(max-width:568px){
-    #home{
-        background-image: url('../img/mob2.png'); 
-        background-repeat: no-repeat; 
-        background-size: 181%;
+    #home {
+        background-image: url('../img/mob2.png');
+        background-repeat: no-repeat;
+        background-size: 142%;
         background-position-x: center;
-        background-position-y: -3px;
+        background-position-y: 13px;
     }
     #about h2{
         font-size:1.3rem !important;
@@ -99,19 +99,14 @@ h2 {
         height: 94vh;
     }
     .text-typing {
-        line-height: 51px;
-        padding-top: 0px !important;
-        font-size: 1.5em !important;
-        margin-right:50px;
-        margin-left:23px;
+        line-height: 33px;
+        padding-top: 30px !important;
+        font-size: 1rem !important;
+        margin-right: 72px;
+        margin-left: 43px;
     }
     #mobile-img{
         display:none !important;
-    }
-    #mobile-img{
-        width: 80%;
-        margin-top: 16px;
-        margin-right: 74px;
     }
     #ctc-btn{
         position: absolute;
