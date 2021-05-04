@@ -87,7 +87,7 @@ h2 {
     #home {
         background-image: url('../img/mob2.png');
         background-repeat: no-repeat;
-        background-size: 142%;
+        background-size: 171%;
         background-position-x: center;
         background-position-y: 13px;
     }
@@ -103,14 +103,14 @@ h2 {
         padding-top: 30px !important;
         font-size: 1rem !important;
         margin-right: 72px;
-        margin-left: 43px;
+        margin-left: 38px;
     }
     #mobile-img{
         display:none !important;
     }
     #ctc-btn{
         position: absolute;
-        top: 83%;
+        top: 88%;
     }
     #human{
         background-image: none !important;
