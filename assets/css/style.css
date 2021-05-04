@@ -174,7 +174,11 @@ h2 {
     }
     /* dark mode start */
     .dark-mode #home{
-        background: black !important;
+        background-color: black !important;
+        background-repeat: no-repeat;
+        background-size: 165%;
+        background-position-x: center !important;
+        background-position-y: 13px;
     }
     .dark-mode #about {
     background: black !important;
