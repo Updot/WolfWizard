@@ -189,6 +189,9 @@ h2 {
     .dark-mode #mainNav .navbar-toggler {
         color: white !important;
     }
+    .dark-mode #about-h2-div{
+        margin-top:-70px;
+    }
     .text-typing {
         padding-left:39px;
     }
