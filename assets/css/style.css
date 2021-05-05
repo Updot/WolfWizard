@@ -431,8 +431,8 @@ h2 {
 /* features section end */
 .btn.focus, .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem transparent;
-    background-color: transparent;
+    box-shadow: 0 0 0 0.2rem #fff;
+    background-color: #fff;
 }
 /* nightmode styling start*/
 .dark-mode {
