@@ -227,11 +227,12 @@ h2 {
     }
     #features div.card{
         border-width: 0px !important;
-        border-color: #fff !important;
+        border-color: grey !important;
     }
     #features .card-header{
         background-color: white !important;
-        border-bottom: none !important;
+        padding: 0.25rem 1.25rem;
+        border-bottom: solid 3px #e3e8ec;
     }
     #features .accordion > .card {
         overflow: visible !important;
@@ -324,7 +325,7 @@ h2 {
 /* about us start */
 #about {
     background-repeat: no-repeat;
-    background-size: 1700px 800px;
+    background-size: 1690px 800px;
 }
 
 /* about us end */
@@ -489,7 +490,9 @@ h2 {
     background-color: black !important;
 }
 /* nightmode styling end */
-
+.founder .text-center a{
+    color: white;
+}
 /* desktop view start*/
 @media(min-width: 768px) {
     #home{
